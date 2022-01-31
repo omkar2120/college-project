@@ -1,0 +1,44 @@
+.layout {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  height: calc(100vh - 10%);
+}
+.manageFunctionality {
+  /* border: 1px solid black; */
+  background-color: #fff;
+  display: flex;
+  padding: 0%;
+  height: auto;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.185); */
+}
+.display {
+  display: grid;
+  grid-template-columns: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+.display h3 {
+  font-size: 25px;
+  word-spacing: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.dropdown {
+  list-style: none;
+  /* background-color: brown; */
+}
+.dropdown li {
+  margin-top: 20px;
+}
+
+.none {
+  display: none;
+}
+.addContainer {
+  background-color: rgba(255, 255, 255, 0.918);
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  box-shadow: rgba(100, 100, 111, 0.151) 0px 7px 29px 0px;
+}

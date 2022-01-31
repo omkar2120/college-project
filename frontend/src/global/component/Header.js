@@ -1,7 +1,7 @@
 import React from 'react';
-
+import "./Header.css"
 function Header() {
-  return <div>Header</div>;
+  return <div className="header"><h3>BBA-CA</h3></div>;
 }
 
 export default Header;
