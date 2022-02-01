@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Home from './global/pages/Home';
+import StudentHome from './student/pages/StudentHome';
 // import Header from './global/component/Header';
 import ManageStudent from './teacher/pages/ManageStudent';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
@@ -10,7 +13,7 @@ function App() {
       <Route path="/" element={<ManageStudent/>}/>
   </Routes>
   </BrowserRouter>
-  </div>;
+  </div>
 }
 
 export default App;

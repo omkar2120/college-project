@@ -1,7 +1,7 @@
 import React from "react";
 // import { styled } from "@mui/material/styles";
 import "./ManageStudent.css";
-import { data } from "../ManageData.js";
+import { data } from "../ManageData";
 import Header from "../../global/component/Header";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
