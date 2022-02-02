@@ -6,6 +6,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { NavLink } from 'react-router-dom';
 import "./Sidebar.css"
 export default function Sidebar({sidebar,setSidebar,list}) {
+    
     console.log(list)
   return <div className={sidebar?"sideBarMain":'sideBarNone'}>
       <div onClick={()=>{setSidebar(!sidebar)}}>
