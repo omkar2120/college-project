@@ -1,5 +1,6 @@
 import React from "react";
 // import { styled } from "@mui/material/styles";
+import {sideBarData} from "../sidebarlist"
 import "./ManageStudent.css";
 import { data } from "../ManageData";
 import Header from "../../global/component/Header";
@@ -10,7 +11,6 @@ import ListItemText from "@mui/material/ListItemText";
 import { useState } from "react";
 import {NavLink} from "react-router-dom"
 import AddStudent from "../component/AddStudent"
-console.log(data);
 function ManageStudent() {
   const [dropdown, setDropdown] = useState({
     isOpen: false,
@@ -18,7 +18,7 @@ function ManageStudent() {
   });
   return (
     <div style={{ height: "100%" }}>
-      <Header />
+      <Header list={sideBarData}/>
       <div className="layout">
         <div className="manageFunctionality">
           <ul>
@@ -47,7 +47,7 @@ function ManageStudent() {
                     }
                   >
                     {d.dropdown.map((dr) => (
-                      <ListItem button style={{textTransform:"uppercase", marginTop:"10px",fontSize: "25px"}} onClick={()=>{setDropdown({...dropdown, isOpen: !dropdown.isOpen})}}>
+                      <ListItem  style={{textTransform:"uppercase", marginTop:"10px",fontSize: "25px"}} onClick={()=>{setDropdown({...dropdown, isOpen: !dropdown.isOpen})}}>
                         <ListItemText>
                           {dr}
                         </ListItemText>
