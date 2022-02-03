@@ -47,7 +47,7 @@ function ManageStudent() {
                     }
                   >
                     {d.dropdown.map((dr) => (
-                      <ListItem  style={{textTransform:"uppercase", marginTop:"10px",fontSize: "25px"}} onClick={()=>{setDropdown({...dropdown, isOpen: !dropdown.isOpen})}}>
+                      <ListItem  style={{textTransform:"uppercase", marginTop:"10px",fontSize: "25px",cursor:"pointer"}} onClick={()=>{setDropdown({...dropdown, isOpen: !dropdown.isOpen})}}>
                         <ListItemText>
                           {dr}
                         </ListItemText>

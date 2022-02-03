@@ -5,7 +5,7 @@ export const data=[
     {
         name:"ADD STUDENT",
         icon:<HiUserAdd/>,
-        link:"teacher/manage/student",
+        link:"/teacher/manage/student",
         dropdown:[]
     },
     {

@@ -9,14 +9,6 @@ export const sideBarData=[
     {
         icon:<MdManageAccounts/>,
         list:"Manage Student",
-        path:"teacher/manage/student"
-    }, {
-        icon:<AiFillDashboard/>,
-        list:"Dashboard",
-        path:"/"
-    }, {
-        icon:<AiFillDashboard/>,
-        list:"Dashboard",
-        path:"/"
-    },
+        path:"/teacher/manage/student"
+    }
 ]

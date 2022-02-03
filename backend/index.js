@@ -1,4 +1,5 @@
 const express=require("express")
+require("./db/connect")
 const app=express()
 const cors=require("cors")
 const port=process.env.PORT||4657

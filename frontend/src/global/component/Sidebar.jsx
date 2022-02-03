@@ -5,6 +5,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { NavLink } from 'react-router-dom';
 import "./Sidebar.css"
+import img from "./Avtar2.jpg"
 export default function Sidebar({sidebar,setSidebar,list}) {
     
     console.log(list)
@@ -15,7 +16,7 @@ export default function Sidebar({sidebar,setSidebar,list}) {
       <div className="sidebarContentContainer">
           <div className="profileContainer">
               <div className="dp">
-                  <img src='./Avtar2.jpg'/>
+                  <img src={img}/>
 
               </div>
               <div className="dpDetails">
