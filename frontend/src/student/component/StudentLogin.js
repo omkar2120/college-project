@@ -8,7 +8,6 @@ import GoogleButton from "react-google-button";
 
 const StudentLogin = () => {
 
-    const [data , setdata] = useState({})
 
   return <div style={{padding:'50px'}}>
           <Container
